@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Fővárosi Blanketta 2024" />
+    <meta property="og:image" content="./preview.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://blanketta.hu" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Fővárosi Blanketta</title>
+</head>
+
+
+<body>
+
+    <header>
+        <h1>FŐVÁROSI BLANKETTA</h1>
+        <div class="subheader">A Fridays for Future Magyarország, az ADOM Diákmozgalom és az Egységes Diákfront 2024-es
+            fővárosi
+            önkormányzati
+            választási ifjúsági programjának része.</div>
+        <nav>
+            <ul>
+                <li><a href="#urlap">Az űrlap</a></li>
+                <li><a href="#miez">Kik vagyunk, és mi ez?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h3 id="urlap" class="subtitle">Űrlap</h3>
+        <span>Mondd el mit gondolsz Budapestről, töltsd ki a blankettát, segíts összeállítani, hogy mit javasoljunk az
+            önkormányzatnak! Minden fiatalnak szeretnénk hallani a véleményét, mert Budapest rólunk is szól!</span>
+        <div id="blanketta">
+            <div id="tripetto-josf84"></div>
+            <script src="https://cdn.jsdelivr.net/npm/@tripetto/runner"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@tripetto/runner-autoscroll"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@tripetto/studio"></script>
+            <script>
+                TripettoStudio.form({
+                    runner: TripettoAutoscroll,
+                    token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYmE0Wm5lMDFVNE5VV0NCY1cvUDNVV3k3aThoOTBQTExvNTkraUVhaFozVT0iLCJkZWZpbml0aW9uIjoicnkxbzlWdHhQc09TaHBYbVIxWkY5aVQrL1N5ZXVVUXQ5aE1hS21GUDRuWT0iLCJ0eXBlIjoiY29sbGVjdCJ9.TmnDEN8ms4mXnZZzu5LRs2Gq1fxnJNIA9AWSYGZvZlw",
+                    element: "tripetto-josf84"
+                });
+            </script>
+        </div>
+        <hr class="divider">
+
+        <h3 id="miez" class="subtitle">Információk</h3>
+        <h2>Kik vagyunk, és mi is az a blanketta?</h2>
+        <p>
+            Az Egységes Diákfront (EDF), az ADOM Diákmozgalom és a Fridays for Future Magyarország (FFF), mint három
+            ifjúsági mozgalom - melyen mozgalmak közül az előbbi kettő elsősorban oktatást érintő kérdésekkel, utóbbi
+            pedig zöld ügyekkel kapcsolatos tevékenységet végez - összefogtunk. Az elmúlt két hónap során egy olyan
+            programcsomagot dolgoztunk ki, ami valós változtatásokkal könnyíti a budapesti fiatalok életét. Ezt a
+            programot felajánljuk mind a fővárosi, mind a kerületi polgármesterjelöltek felé. Célunk, hogy közvetlen
+            hatással legyünk a budapesti fiatalok életére, és elérjük, hogy rólunk is szóljon ez a város. A blanketta
+            gyakorlatilag egy kérdőív, melynek segítségével a ti véleményeteket szeretnénk beépíteni az
+            önkormányzatoknak szánt javaslatainkba. Nekünk számít a véleményetek, mert ez rólunk szól!
+        </p>
+
+    </main>
+
+    <footer>
+        <div><a href="https://www.instagram.com/fridaysforfuture_hungary/" target="_blank"><img src="./fff.png"
+                    alt="Fridays For Future Magyarország logó"></a></div>
+        <div><a href="https://facebook.com/egysegesdiakfront" target="_blank"><img src="./edf.png"
+                    style="filter:brightness(100)" alt="Egységes Diákfront logó"></a>
+        </div>
+        <div><a href="https://adommozgalom.hu" target="_blank"><img src="./adom.png" alt="ADOM Diákmozgalom logó"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

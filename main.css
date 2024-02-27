@@ -1,0 +1,23 @@
+body {
+    padding: 0 5%;
+    font-family: Calibri;
+    margin: 0;
+    background: #fff0f0;
+}
+
+section {
+    max-width: 1500px;
+    background: white;
+    padding: .5em 1em 2em 1em;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 0.5em;
+}
+
+#subtitle {
+    margin-top: -1.3em;
+    color: gray;
+}
